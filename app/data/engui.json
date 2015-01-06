@@ -1,0 +1,39 @@
+{
+    "menu": {
+        "home": {
+            "name": "home",
+            "submenu": null
+        },
+        "products": {
+            "name": "lista produktów",
+            "submenu": {
+                "all": "wszystko",
+                "uniforms": "ubranka",
+                "colars": "szelki",
+                "beds": "legowiska",
+                "sizes": "opis rozmiarów"
+            }
+        },
+        "detail": {
+            "name": "sprzedaz detaliczna",
+            "submenu":null
+        },
+        "contact": {
+            "name": "kontakt",
+            "submenu": null
+        },
+        "links": {
+            "name": "dobre linki",
+            "submenu": null
+        },
+        "language": {
+            "name": "english",
+            "prefix": "eng",
+            "submenu": {
+                "pol": "polski",
+                "ger": "deutsch"
+            }
+
+        }
+    }
+}

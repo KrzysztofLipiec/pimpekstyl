@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "mappings": "AAIE,aAAK;EACH,UAAU,EAAE,IAAI;EAChB,QAAQ,EAAC,QAAQ;EACjB,QAAQ,EAAC,MAAM;EACf,wBAAU;IACR,UAAU,EAAC,KAAK;IAChB,MAAM,EAAC,WAAW;IAClB,OAAO,EAAE,aAAa;IACtB,KAAK,EAAE,IAAI;IACX,iCAAQ;MACN,UAAU,EAAC,IAAI",
+  "sources": [
+    "../scss/home/krzysztof/WebstormProjects/pimpekstyl/app/sass/common/_header.scss"
+  ],
+  "names": [],
+  "file": "style.css"
+}

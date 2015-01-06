@@ -1,0 +1,10 @@
+{
+  "name": "pimpekstyl",
+  "description": "pimpekstyl app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "twitter-bootstrap-3.0.0": "^3.0.0"
+  }
+}

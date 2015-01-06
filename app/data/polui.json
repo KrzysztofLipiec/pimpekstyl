@@ -1,0 +1,39 @@
+{
+    "menu": {
+        "home": {
+            "name": "Strona główna",
+            "submenu": null
+        },
+        "products": {
+            "name": "statystyki",
+            "submenu": {
+                "all": "wszystko",
+                "uniforms": "Ubranka",
+                "colars": "Szelki",
+                "beds": "Legowiska",
+                "sizes": "Rozmiary"
+            }
+        },
+        "login": {
+            "name": "login",
+            "submenu": null
+        },
+        "contact": {
+            "name": "kontakt",
+            "submenu": null
+        },
+        "project": {
+            "name": "o projekcie",
+            "submenu": null
+        },
+        "language": {
+            "name": "polski",
+            "prefix": "pol",
+            "submenu": {
+                "eng": "english",
+                "ger": "deutsch"
+            }
+
+        }
+    }
+}

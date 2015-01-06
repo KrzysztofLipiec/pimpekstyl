@@ -1,0 +1,29 @@
+<div class="logo">logo</div>
+<ul class="menu">
+    {{#eachToDisplayProperty copy.menu "home,products,login,contact,project"}}
+    <li class="{{property}} menu-link">
+
+        {{#if_eq value.submenu null}}
+        <div class="menu-name"><a href="{{property}}">{{value.name}}</a></div>
+        {{/if_eq}}
+        {{#if_else value.submenu null}}
+        <div class="menu-name">{{value.name}}</div>
+        <ul class="submenu">
+            {{#eachSubmenu value.submenu property}}
+            <li class="submenu-link"><a href="{{parent}}/{{key}}">{{value}}</a></li>
+            {{/eachSubmenu}}
+        </ul>
+        {{/if_else}}
+    </li>
+    {{/eachToDisplayProperty}}
+    {{#eachToDisplayProperty copy.menu "language"}}
+    <li class="{{property}} menu-link">
+        <select class="languages">
+            <option value="{{value.prefix}}" selected="selected">{{value.name}}</option>
+        {{#eachSubmenu value.submenu property}}
+            <option value="{{key}}">{{value}}</option>
+        {{/eachSubmenu}}
+        </select>
+    </li>
+    {{/eachToDisplayProperty}}
+</ul>
